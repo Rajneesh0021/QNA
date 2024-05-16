@@ -10,6 +10,9 @@ app.use(cors())
 
 app.use(express.json());
 
+app.get('/',(req,res)=>{
+   res.send('working fine')
+})
 
 app.use('/api', questionRoutes);
 
