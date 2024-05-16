@@ -7,7 +7,7 @@ import AudioPlayer from '../components/AudioPlayer';
 
 const Question: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string>('');
-  const [seconds, setSeconds] = useState(100);
+  const [seconds, setSeconds] = useState(15);
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [questions, setQuestions] = useState<any[]>([]); 
