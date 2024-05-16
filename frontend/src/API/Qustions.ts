@@ -1,4 +1,4 @@
-var baseUrl='http://localhost:9090/api/question'
+var baseUrl='https://qna-fp99.vercel.app/api/question'
 const fetchQuestions = async () => {
   try {
     const response = await fetch(baseUrl);
